@@ -1,0 +1,8 @@
+.lesson1-container {
+  /* делаем flex контейнер */
+  display: flex;
+  /* меняем направление главной оси на вертикальное */
+  flex-direction: column;
+  /* выравниваем по центру */
+  align-items: center;
+}
