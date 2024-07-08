@@ -20,3 +20,27 @@ let img = {
   id: '',
   class: ''
 }
+
+const book ={
+  title: 'Lord of the rings',
+  author: 'Tolkien',
+  isForKids: false,
+  characters: ['Aragorn', 'Legolas', 'Ghimli', 'Frodo']
+}
+
+// console.log(book.characters);
+//задача: получить данные из объекта по ключам и сложить их в переменные  для дальнейшего использования
+
+// const title = book.title
+// const author = book.author
+// const isForKids = book.isForKids
+// const characters = book.characters
+
+// console.log(title, author, isForKids, characters);
+
+// деструктуризация объектов решает ту же задачу, но в одну строку:
+const {title: newTitle, author, isForKids, characters} = book; //переименованный ключ из title в newTitle
+console.log('title: ', newTitle);
+console.log('author: ', author);
+console.log('isForKids: ', isForKids);
+console.log('characters: ', characters);

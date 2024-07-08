@@ -12,7 +12,7 @@ function App() {
       <main>
         <div class="about_me">
           <div>I'm Junior fullstack developer</div>
-          <img src="./media/meme1713282789478.jpeg" alt="my photo" />
+          <img src="/images/meme.jpeg" alt="my photo" />
         </div>
       </main>
      
@@ -21,12 +21,12 @@ function App() {
         <h2>Contacts</h2>
         <div class="tel">
           <a href="tel:+4915116563486">
-            <img src="./media/tel.ico" alt="tel" /></a>
+            <img src="/images/tel.ico" alt="tel" /></a>
             <div>+49 1511 656 34 86</div>
         </div>
         <div class="email">
           <a href="mailto:mrzygomatic@gmail.com">
-            <img src="./media/mail.png" alt="email" /></a>
+            <img src="/images/mail.png" alt="email" /></a>
             <div>mrzygomatic@gmail.com</div>
         </div>
       </div>
