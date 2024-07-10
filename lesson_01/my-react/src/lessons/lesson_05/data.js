@@ -14,18 +14,18 @@ export const forceUsers = [
         image: 'https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg?region=71%2C0%2C1139%2C854'
     },
     {
-        name: 'Darth Maul',
-        age: 35,
-        isDark: true,
-        lightsaberColors: ['red'],
-        image: 'https://nsabers.es/cdn/shop/articles/rogue_0ne_photo_realistic_Star_Wars_darth_maul_black_cloak_inti_3026af25-54be-4505-8c2a-9615fdfd7b7a.png?v=1713855939'
-    },
-    {
         name: 'Yoda',
         age: 1000,
         isDark: false,
         lightsaberColors: ['green'],
         image: 'https://static.wikia.nocookie.net/starwars/images/d/d6/Yoda_SWSB.png'
+    },
+    {
+        name: 'Darth Maul',
+        age: 35,
+        isDark: true,
+        lightsaberColors: ['red'],
+        image: 'https://nsabers.es/cdn/shop/articles/rogue_0ne_photo_realistic_Star_Wars_darth_maul_black_cloak_inti_3026af25-54be-4505-8c2a-9615fdfd7b7a.png?v=1713855939'
     },
     {
         name: 'Obi Wan',
