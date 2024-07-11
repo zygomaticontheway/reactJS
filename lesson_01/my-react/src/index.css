@@ -20,7 +20,7 @@ code {
   /* выравниваем по центру */
   align-items: center;
   margin: auto;
-
+  width: 70%;
 }
 .lesson-container > p{
   text-align: center;

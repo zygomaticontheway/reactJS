@@ -1,0 +1,39 @@
+.selectedProductsContainer{
+
+}
+
+.selectedProductsList{
+    margin-left: 20px;
+}
+
+.availableProductsContainer{
+
+}
+
+.availableProductsList{
+    margin-left: 20px;
+}
+
+.price{
+    color: darkblue;
+}
+
+.availableProductsListButton{
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    color: darkblue;
+    margin-left: -8px;
+}
+
+.availableProductsListButton:hover{
+    color: rgb(13, 13, 193, 80%);
+}
+
+.removeProductsButton{
+    background-color: transparent;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+}

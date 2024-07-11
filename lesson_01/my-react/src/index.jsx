@@ -9,6 +9,7 @@ import ReactDOM from 'react-dom/client';
 // import Feedback from './components/feedback/Feedback';
 // import Homework04 from './homeworks/homework04/Homework04';
 import Lesson05 from './lessons/lesson_05/Lesson05';
+import ProductList from './lessons/consultation03/ProductList';
 
 
 
@@ -23,6 +24,7 @@ root.render(
     {/* <Feedback/> */}
     {/* <Homework04/> */}
     {/* <Counter/> */}
-    <Lesson05/>
+    {/* <Lesson05/> */}
+    <ProductList/>
   </>
 );
